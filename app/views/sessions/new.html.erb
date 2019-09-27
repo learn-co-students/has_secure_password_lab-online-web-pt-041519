@@ -1,0 +1,10 @@
+<h1>Log in to your account</h1>
+
+<%= form_for :user, url: '/login' do |f| %>
+    Name: <%= f.text_field :name %><br>
+    Password: <%= f.password_field :password %><br>
+    Password Confirmation: <%= f.password_field :password_confirmation %><br>
+    <%= f.submit "Log In" %>
+<% end %>
+<br><br>
+<%= link_to "Go home", root_path %>
