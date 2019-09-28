@@ -1,3 +1,6 @@
+#My Notes
+  This test didn't check for WelcomeController or the welcome page.~
+
 # has_secure_password
 
 ## Objectives
