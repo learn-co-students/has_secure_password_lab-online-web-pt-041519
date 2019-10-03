@@ -1,0 +1,9 @@
+<h1>LOGIN!!</h1>
+
+<%= form_tag login_path do %>
+  <%= text_field_tag :name, "", placeholder: "Name" %> <br>
+  <%= password_field_tag :password, "", placeholder: "Password" %> <br>
+  <%= password_field_tag :password_confirmation, "", placeholder: "Confirm your password" %> <br>
+  <%= submit_tag "Login" %>
+  
+<% end %>
